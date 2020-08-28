@@ -1,8 +1,8 @@
 #根据身高、体重计算BMI
-height=float(input('请输入身高：'))
-weight=float(input('请输入体重：'))
+height=float(input('请输入身高：(米)'))
+weight=float(input('请输入体重：(kg)'))
 BMI=weight/(height**2)
-print('BMI的值是：%d'%BMI)
+print('BMI的值是：{}'.format(BMI))
 if BMI<18.5:
     print('太轻了')
     pass
